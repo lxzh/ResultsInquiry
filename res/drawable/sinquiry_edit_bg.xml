@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <!-- 获得焦点时 -->
+    <item 
+        android:state_focused="true" 
+        android:drawable="@drawable/edit_selected" 
+        /> 
+    <!-- 失去焦点时 -->
+    <item 
+        android:state_focused="false" 
+        android:drawable="@drawable/edit_normal" 
+        /> 
+    <!-- 默认时 -->
+    <item 
+        android:drawable="@drawable/edit_normal" 
+        /> 
+</selector>

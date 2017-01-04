@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pets_bksf">
+        <item>11-北京</item>
+        <item>12-天津</item>
+        <item>13-河北</item>
+        <item>14-山西</item>
+        <item>15-内蒙古</item>
+        <item>21-辽宁</item>
+        <item>22-吉林</item>
+        <item>23-黑龙江</item>
+        <item>31-上海</item>
+        <item>32-江苏</item>
+        <item>33-浙江</item>
+        <item>34-安徽</item>
+        <item>35-福建</item>
+        <item>36-江西</item>
+        <item>37-山东</item>
+        <item>41-河南</item>
+        <item>42-湖北</item>
+        <item>43-湖南</item>
+        <item>44-广东</item>
+        <item>45-广西</item>
+        <item>46-海南</item>
+        <item>50-重庆</item>
+        <item>51-四川</item>
+        <item>52-贵州</item>
+        <item>53-云南</item>
+        <item>54-西藏</item>
+        <item>61-陕西</item>
+        <item>62-甘肃</item>
+        <item>63-青海</item>
+        <item>64-宁夏</item>
+        <item>65-新疆</item>
+        <item>81-总参</item>
+        <item>82-北京军区</item>
+    </string-array>
+    <string-array name="pets_bkjb">
+        <item>一级B</item>
+        <item>一级</item>
+        <item>二级</item>
+        <item>三级</item>
+        <item>四级</item>
+    </string-array>
+    <string-array name="ncre_bksf">
+        <item>11-北京</item>
+        <item>12-天津</item>
+        <item>13-河北</item>
+        <item>14-山西</item>
+        <item>15-内蒙古</item>
+        <item>21-辽宁</item>
+        <item>22-吉林</item>
+        <item>23-黑龙江</item>
+        <item>31-上海</item>
+        <item>32-江苏</item>
+        <item>33-浙江</item>
+        <item>34-安徽</item>
+        <item>35-福建</item>
+        <item>36-江西</item>
+        <item>37-山东</item>
+        <item>41-河南</item>
+        <item>42-湖北</item>
+        <item>43-湖南</item>
+        <item>44-广东</item>
+        <item>45-广西</item>
+        <item>46-海南</item>
+        <item>50-重庆</item>
+        <item>51-四川</item>
+        <item>52-贵州</item>
+        <item>53-云南</item>
+        <item>54-西藏</item>
+        <item>61-陕西</item>
+        <item>62-甘肃</item>
+        <item>63-青海</item>
+        <item>64-宁夏</item>
+        <item>65-新疆</item>
+        <item>81-总参</item>
+        <item>82-北京军区</item>
+        <item>83-兰州军区</item>
+    </string-array>
+    <string-array name="ncre_bkjb">
+        <item>10-一级（DOS）(1994-2002上)</item>
+        <item>11-一级B（DOS）(1996上-2002上)</item>
+        <item>12-一级(1999上-2005上)</item>
+        <item>13-一级B</item>
+        <item>14-一级WPS Office</item>
+        <item>15-一级Microsoft Office</item>
+        <item>20-二级(仅在1994年)</item>
+        <item>21-二级QBASIC(1995-2005上)</item>
+        <item>22-二级FORTRAN(1995-2003下)</item>
+        <item>23-二级PASCAL(1995-2002上)</item>
+        <item>24-二级C</item>
+        <item>25-二级FOXBASE+(1995-2005上)</item>
+        <item>26-二级Visual Basic</item>
+        <item>27-二级Visual FoxPro</item>
+        <item>28-二级JAVA</item>
+        <item>29-二级ACCESS</item>
+        <item>61-二级C++</item>
+        <item>62-二级Delphi</item>
+        <item>30-三级(仅在1994年)</item>
+        <item>31-三级A(1995-2002上)</item>
+        <item>32-三级B(1995-2002上)</item>
+        <item>33-三级PC技术</item>
+        <item>34-三级信息管理技术</item>
+        <item>35-三级网络技术</item>
+        <item>36-三级数据库技术</item>
+        <item>40-四级(1995-2008下)</item>
+        <item>41-四级网络工程师</item>
+        <item>42-四级数据库工程师</item>
+        <item>43-四级软件测试工程师</item>
+    </string-array>
+</resources>

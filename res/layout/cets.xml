@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/white">
+    
+    <RelativeLayout
+        android:id="@+id/sinquiry_title_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title"
+        android:padding="13dp" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/title_back_bg"
+            android:text="@string/title_back"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cets_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btn_back"
+            android:layout_alignTop="@id/btn_back"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/title_cet"
+            android:textColor="@android:color/white"
+            android:textSize="22dp" />
+        <ImageView
+            android:id="@+id/iv_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:src="@drawable/refresh"
+            android:text="@string/title_back"
+            android:textColor="@android:color/white"
+            android:visibility="invisible"
+            android:textSize="20dp" />
+    </RelativeLayout>
+	<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/sinquiry_title_frame" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/sinquiry_title_frame" >
+
+            <LinearLayout
+                android:id="@+id/layout_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/input_bumber"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/sinquiry_item_tv_bg"
+                    android:gravity="right|center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/please_input_number"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/et_number"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/sinquiry_edit_bg"
+                    android:inputType="number"
+                    android:maxLength="16"
+                    android:hint="@string/please_input_15_cardid"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_1"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/input_name"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/sinquiry_item_tv_bg"
+                    android:gravity="right|center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/please_input_name"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/sinquiry_edit_bg"
+                    android:hint="@string/please_input_2_name"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_2"
+                android:orientation="horizontal"
+                android:padding="25dp"
+                android:weightSum="1.0" >
+
+                <Button
+                    android:id="@+id/btn_sinquiry"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/sinquiry_btn_bg"
+                    android:padding="10dp"
+                    android:text="@string/btn_sinquiry"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btn_reset"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/sinquiry_btn_bg"
+                    android:padding="10dp"
+                    android:text="@string/btn_reset"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            
+            <TextView
+			    android:id="@+id/tv_result"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentBottom="true"
+			    android:layout_below="@id/layout_3"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:padding="10dp"
+			    android:textColor="@android:color/black"
+			    android:background="@drawable/result_bg"
+			    android:visibility="invisible" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
